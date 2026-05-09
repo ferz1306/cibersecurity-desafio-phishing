@@ -183,18 +183,6 @@ images/
 ├── 05-page-cloudflare-tunnel.png
 ```
 
-### Exemplos no README
-
-```markdown
-![Menu do SEToolkit](images/01-setoolkit-menu.png)
-![Página clonada](images/02-facebook-clonado.png)
-![Credenciais capturadas](images/03-credenciais-capturadas.png)
-![Log do Cloudflare Tunnel](images/04-cloudflare-tunnel-log.png)
-![Página acessada via Cloudflare Tunnel](images/05-page-cloudflare-tunnel.png)
-```
-
----
-
 ## 🔍 Exemplo de Captura de Credenciais
 
 ```json

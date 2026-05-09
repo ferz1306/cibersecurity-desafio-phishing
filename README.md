@@ -96,7 +96,7 @@ O SEToolkit iniciará automaticamente o Credential Harvester na porta 80.
 http://192.168.3.142
 ```
 
-### Via Cloudflare Tunnel (para testes do eu interesse)
+### Via Cloudflare Tunnel (para aumento do meu conhecimento)
 
 ## 📋 Comandos Utilizados
 

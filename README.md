@@ -98,6 +98,8 @@ http://192.168.3.142
 
 ### Via Cloudflare Tunnel (para testes do eu interesse)
 
+## 📋 Comandos Utilizados
+
 #### Baixar o pacote .deb do cloudflared
 
 ```bash
@@ -108,12 +110,6 @@ wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudfla
 
 ```bash
 sudo dpkg -i cloudflared-linux-amd64.deb
-```
-
-#### Corrigir dependências, se necessário
-
-```bash
-sudo apt --fix-broken install -y
 ```
 
 #### Verificar se a instalação foi concluída
@@ -136,8 +132,6 @@ https://sku-americans-concerned-generated.trycloudflare.com
 
 ---
 
-## 📋 Comandos Utilizados
-
 ### Verificar se o servidor está na porta 80
 
 ```bash
@@ -148,12 +142,6 @@ sudo ss -tulpn | grep :80
 
 ```bash
 curl http://localhost
-```
-
-### Verificar versão do cloudflared
-
-```bash
-cloudflared --version
 ```
 
 ### Buscar credenciais nos logs
@@ -170,7 +158,7 @@ grep -R "password" ~/.set
 
 ## 📸 Evidências (Screenshots)
 
-> Adicione as imagens na pasta `images/`.
+> imagens na pasta `images/`.
 
 ### Estrutura sugerida
 

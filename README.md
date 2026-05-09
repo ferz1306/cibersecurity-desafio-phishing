@@ -36,7 +36,7 @@ Ao concluir este projeto, foi possível:
 * Kali Linux
 * Social-Engineer Toolkit (SEToolkit)
 * Python HTTP Server
-* Cloudflare Tunnel (adicionado a mais por mim para verificar a diferença utilizando um modo HTTPS)
+* Cloudflare Tunnel (opcional)
 * Git e GitHub
 
 ---
@@ -96,22 +96,37 @@ O SEToolkit iniciará automaticamente o Credential Harvester na porta 80.
 http://192.168.3.142
 ```
 
-### Via Cloudflare Tunnel 
+### Via Cloudflare Tunnel (para testes do eu interesse)
 
-# Baixar o pacote .deb do cloudflared
+#### Baixar o pacote .deb do cloudflared
+
+```bash
 wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb
+```
 
-# Instalar o pacote
+#### Instalar o pacote
+
+```bash
 sudo dpkg -i cloudflared-linux-amd64.deb
+```
 
-# Corrigir dependências, se necessário
+#### Corrigir dependências, se necessário
+
+```bash
 sudo apt --fix-broken install -y
+```
 
-# Verificar se a instalação foi concluída
+#### Verificar se a instalação foi concluída
+
+```bash
 cloudflared --version
+```
 
-# Criar um túnel para a aplicação rodando na porta 80
+#### Criar um túnel para a aplicação rodando na porta 80
+
+```bash
 cloudflared tunnel --url http://localhost:80
+```
 
 Exemplo de URL gerada:
 
@@ -290,8 +305,8 @@ Além da execução do desafio proposto, foram realizados testes adicionais com 
 
 Projeto desenvolvido como parte da formação em Cybersecurity da DIO.
 
-* GitHub: `[https://github.com/ferz1306]`
-* LinkedIn: `[https://www.linkedin.com/in/fernanda-barberato/]`
+* GitHub: `https://github.com/ferz1306`
+* LinkedIn: `https://www.linkedin.com/in/fernanda-barberato/`
 
 ---
 

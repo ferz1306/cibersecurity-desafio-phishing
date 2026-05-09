@@ -36,7 +36,7 @@ Ao concluir este projeto, foi possível:
 * Kali Linux
 * Social-Engineer Toolkit (SEToolkit)
 * Python HTTP Server
-* Cloudflare Tunnel (opcional)
+* Cloudflare Tunnel (do meu interesse)
 * Git e GitHub
 
 ---
